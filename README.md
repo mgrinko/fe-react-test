@@ -12,12 +12,14 @@ Create a React application for displaying and storing data using https://swapi.d
 3. Clicking any item from the list displays a gallery with unequal rows / columns (a.k.a. "Masonry grid") with images representing chosen item (images are fetched via an image searching API you've chosen).
 4. Double-clicking an image saves it to the `Saved` and show a toaster telling about the result of an operation.
 5. Clicking the `Saved` tab moves us to the page with all the saved images, which also contains an input field that allows us to filter images by the name.
+6. As a result we'd like having a link for a git repository with a task.
 
 ## _Data management_
 
 1. For global state management use Redux.
 2. For asynchronous operations you may use whatever tool you like (like `redux-thunk`). Using `redux-saga` will be a plus.
 3. For connecting Redux you may use `react-redux's "connect"` or hooks or whatever approach you like.
+4. Redux store MUST NOT be accessible via `Redux devtools` extension in a production mode.
 
 ## _Styling and layouts_
 
@@ -37,3 +39,5 @@ Create a React application for displaying and storing data using https://swapi.d
 6. Responsiveness will be a plus
 7. Including light and darks theme will be a plus.
 8. Creating some functionality which was not stated in a spec but shows your skills may be considered as a plus.
+9. Prepare before starting a test work and find a good balance between time spent and a result, as it also may be reviewed.
+10. Try making commit messages nice and informative.
