@@ -4,6 +4,8 @@
 Create a React application for displaying and storing data using https://swapi.dev/ 
 and any image searching API (Google, Bing or whatever you want). 
 Please, read this document all the way to the end.
+
+Any questions are welcome :)
 ```
 
 ## _Tech requirements_
